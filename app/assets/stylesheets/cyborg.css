@@ -685,6 +685,8 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
@@ -11021,4 +11023,9 @@ legend {
 
 .popover-title {
   border-bottom: none;
+}
+
+.end-footer {
+  display: flex;
+  align-content: end;
 }
