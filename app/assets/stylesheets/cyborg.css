@@ -11024,8 +11024,3 @@ legend {
 .popover-title {
   border-bottom: none;
 }
-
-.end-footer {
-  display: flex;
-  align-content: end;
-}
